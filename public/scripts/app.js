@@ -51,13 +51,15 @@ $(function() {
   loadTweets();
 
   $( "button" ).click(function() {
-    console.log("on click button");
     $( "#compose-tweet" ).slideToggle();
+    $(".text").focus();
   });
 
   $("#submitTweet").on("click", function(event) {
-    console.log("on submit tweet");
     event.preventDefault();
+    if ($('textarea.text').val().length > 140) {
+      return;
+    }
     console.log($('#tweetForm').serialize());
     $.ajax({
       method: 'POST',
