@@ -1,0 +1,36 @@
+#nav-bar {
+    position: fixed;
+    display: inline-block;
+    background-color: #00a087;
+    width: 100%;
+}
+
+#nav-bar .logo {
+
+    padding-left: 2em;
+    margin: 0px;
+}
+
+#nav-bar .header {
+    line-height: 80px;
+    font-size: 2em;
+    height: 80px;
+    color: #e8fdff;
+    margin: 0px;
+    width: 100%;
+    padding-right: 2em;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+button {
+    background-color: #008080;
+    position: fixed;
+    top: 35px;
+    right: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+
+}

@@ -1,0 +1,27 @@
+.new-tweet {
+    margin: auto;
+    background-color: lightgrey;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    vertical-align: center;
+}
+
+textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid black
+}
+
+
+.new-tweet span.counter {
+  float: right;
+}
+
+input {
+}
